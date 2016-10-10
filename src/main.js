@@ -1,6 +1,5 @@
 require('./app/app.module');
 
-require('./styles.css');
-import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
+import './styles.css';
 
 console.log('Hello World, Loading main');
