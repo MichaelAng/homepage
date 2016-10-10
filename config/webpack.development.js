@@ -23,18 +23,41 @@ module.exports = {
 
     module: {
         loaders: [
-            // Loads css
+            {
+                test: /.js$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/,
+                query: {
+                    presets: ['es2015']
+                }
+            },
             {
                 test: /\.css$/,
-                exclude: path.resolve('node_modules'),
-                loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+                loader: "style-loader!css-loader"
             },
-
-            // Loads fonts and images into the html as DataUrl if files are less than 10kb
             {
-                test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
-                exclude: path.resolve('node_modules'),
-                loader: 'url-loader?limit=10000000&name=assets/[name].[hash].[ext]'
+                test: /\.png$/,
+                loader: "url-loader?limit=100000"
+            },
+            {
+                test: /\.jpg$/,
+                loader: "file-loader"
+            },
+            {
+                test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
+                loader: 'url?limit=10000&mimetype=application/font-woff'
+            },
+            {
+                test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+                loader: 'url?limit=10000&mimetype=application/octet-stream'
+            },
+            {
+                test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+                loader: 'file'
+            },
+            {
+                test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+                loader: 'url?limit=10000&mimetype=image/svg+xml'
             }
         ]
     },
