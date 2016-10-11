@@ -60,8 +60,58 @@ section h2.section-heading {
     text-transform: initial;
 }
 
-#redefine{
-    background-color:  #551A8B;
-    color: white;
+#redefine {
+    background-color: #551A8B;
 }
 
+#services {
+    background-color: #333333;
+}
+
+#team {
+    background-color: #ffffff;
+}
+
+.sc-white-text {
+    color: white;
+}
+sc-black-text {
+    color: black;
+}
+
+.sc-subheading {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.sc-team-member {
+    width: 200px;
+}
+
+
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+}
