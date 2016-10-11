@@ -56,6 +56,9 @@ header#sc-header .intro-text .intro-heading {
   }
 }
 
+#contact.sc-contact {
+  background-image: none;
+}
 section h2.section-heading {
     text-transform: initial;
 }
@@ -64,7 +67,7 @@ section h2.section-heading {
     background-color: #551A8B;
 }
 
-#services {
+#services, #contact {
     background-color: #333333;
 }
 
@@ -72,6 +75,9 @@ section h2.section-heading {
     background-color: #ffffff;
 }
 
+#footer {
+    background-color: #111111;
+}
 
 .sc-white-text {
     color: white;
