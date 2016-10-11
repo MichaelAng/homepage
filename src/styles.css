@@ -60,7 +60,7 @@ section h2.section-heading {
     text-transform: initial;
 }
 
-#redefine {
+#redefine, .clients{
     background-color: #551A8B;
 }
 
@@ -71,6 +71,7 @@ section h2.section-heading {
 #team {
     background-color: #ffffff;
 }
+
 
 .sc-white-text {
     color: white;
