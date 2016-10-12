@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "a basic homepage",
   "scripts": {
-    "build": "rimraf dist && webpack",
     "start": "webpack-dev-server --inline --progress --port 8080"
   },
   "author": "Michael Ang",
