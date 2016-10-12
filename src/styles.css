@@ -67,9 +67,10 @@ header .header-text .btn.sc-btn-header {
 	}
 }
 
-#redefine {
-    padding: 40px;
+section {
+    padding: 40px 40px 20px;
 }
+
 #redefine .sc-section-body {
     text-align: center;
 }
@@ -86,12 +87,31 @@ header .header-text .btn.sc-btn-header {
     }
 }
 
+.section-subtitle {
+    padding: 0 30px;
+    margin-bottom: 60px;
+}
+.section-body {
+    padding: 0 30px 30px;
+}
+@media (min-width: 768px) {
+    .section-subtitle {
+        padding: 0 150px;
+    }
+    .section-body {
+        padding: 0 30px;
+        margin-bottom: 40px;
+    }
+}
+
+
+
 #redefine, .clients{
     background-color: #551A8B;
 }
 
 #services, #contact {
-    background-color: #333333;
+    background-color: #222222;
 }
 
 #team {
@@ -107,6 +127,9 @@ header .header-text .btn.sc-btn-header {
 }
 sc-black-text {
     color: black;
+}
+.sc-purple-text {
+    color: #551A8B;;
 }
 
 .sc-subheading {
