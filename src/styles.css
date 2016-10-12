@@ -80,6 +80,23 @@ header .header-text .btn.sc-btn-header {
 	}
 }
 
+footer {
+    padding: 30px;
+}
+
+footer ul {
+    padding: 0;
+}
+footer ul li {
+    list-style: none;
+}
+footer ul li a{
+    color: #777777;
+}
+footer .copyright {
+    border-top: 1px solid;
+}
+
 #redefine .sc-section-body {
     text-align: center;
 }
