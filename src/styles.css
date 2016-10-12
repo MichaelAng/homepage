@@ -47,7 +47,7 @@ header .header-text .title {
 	font-size: 20px;
 	margin-bottom: 10px;
 }
-header .header-text .btn.sc-learn-more {
+header .header-text .btn.sc-btn-header {
     background-color: #551A8B;
     color: ffffff;
     display: inline-block;
@@ -67,39 +67,51 @@ header .header-text .btn.sc-learn-more {
 	}
 }
 
-#contact.sc-contact {
-	background-image: none;
+#redefine {
+    padding: 40px;
 }
-section h2.section-heading {
-		text-transform: initial;
+#redefine .sc-section-body {
+    text-align: center;
+}
+#redefine .sc-section-body .sc-btn-redefine {
+    background-color: transparent;
+    color: #ffffff;
+}
+@media (min-width: 768px) {
+	#redefine {
+        padding: 40px;
+    }
+    #redefine .sc-section-body {
+        text-align: left;
+    }
 }
 
 #redefine, .clients{
-		background-color: #551A8B;
+    background-color: #551A8B;
 }
 
 #services, #contact {
-		background-color: #333333;
+    background-color: #333333;
 }
 
 #team {
-		background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 #footer {
-		background-color: #111111;
+    background-color: #111111;
 }
 
 .sc-white-text {
-		color: white;
+    color: white;
 }
 sc-black-text {
-		color: black;
+    color: black;
 }
 
 .sc-subheading {
-		padding-left: 200px;
-		padding-right: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .sc-image {
