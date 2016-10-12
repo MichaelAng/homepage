@@ -67,10 +67,6 @@ header .header-text .btn.sc-btn-header {
 	}
 }
 
-section {
-    padding: 40px 40px 20px;
-}
-
 #redefine .sc-section-body {
     text-align: center;
 }
@@ -85,6 +81,10 @@ section {
     #redefine .sc-section-body {
         text-align: left;
     }
+}
+
+section {
+    padding: 40px 40px 20px;
 }
 
 .section-subtitle {
@@ -104,6 +104,23 @@ section {
     }
 }
 
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+  padding: 20px
+}
 
 
 #redefine, .clients{
@@ -131,6 +148,11 @@ sc-black-text {
 .sc-purple-text {
     color: #551A8B;;
 }
+
+.sc-lite-purple-text {
+    color: purple;
+}
+
 
 .sc-subheading {
     padding-left: 200px;
