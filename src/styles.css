@@ -1,96 +1,135 @@
+.sc-navbar .navbar-brand,
+.sc-navbar .navbar-brand:hover,
+.sc-navbar .navbar-brand:focus,
+.sc-navbar .navbar-brand:active,
+.sc-navbar .navbar-brand.active {
+    color: #ffffff;
+}
+
+.sc-navbar a {
+    color: #ffffff;
+    background-color: transparent
+}
+
+.sc-navbar .navbar-header button {
+    color: #ffffff;
+}
+
+.sc-navbar {
+    background-color: #551A8B;
+    border-color: transparent;
+}
+
+@media (min-width: 768px) {
+	.sc-navbar {
+		background-color: transparent;
+		padding: 0 100px;
+		border: none;
+	}
+	.navbar-custom .navbar-brand {
+		font-size: 2em;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.navbar-custom .navbar-nav > .active > a {
+		border-radius: 3px;
+	}
+}
+
 header#sc-header  {
-    background: linear-gradient(
-      rgba(102,51,153, 0.45),
-      rgba(102,51,153, 0.45)
-    ), url('../public/assets/office.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-    color: white;
+		background: linear-gradient(
+			rgba(102,51,153, 0.45),
+			rgba(102,51,153, 0.45)
+		), url('../public/assets/office.jpeg');
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		text-align: center;
+		color: white;
 }
 header#sc-header  .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
 header#sc-header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 16px;
-  line-height: 22px;
-  margin-bottom: 25px;
+	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 25px;
 }
 header#sc-header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: initial;
-  font-weight: normal;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: initial;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 50px;
+	margin-bottom: 25px;
 }
 @media (min-width: 768px) {
-  header#sc-header .intro-text {
-    padding-top: 100px;
-    padding-left: 150px;
-    padding-bottom: 200px;
-    padding-right: 150px;
-  }
-  header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-  }
-  header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
+	header#sc-header .intro-text {
+		padding-top: 100px;
+		padding-left: 150px;
+		padding-bottom: 200px;
+		padding-right: 150px;
+	}
+	header .intro-text .intro-lead-in {
+		font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-style: italic;
+		font-size: 40px;
+		line-height: 40px;
+		margin-bottom: 25px;
+	}
+	header .intro-text .intro-heading {
+		font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 75px;
+		line-height: 75px;
+		margin-bottom: 50px;
+	}
 }
 
 #contact.sc-contact {
-  background-image: none;
+	background-image: none;
 }
 section h2.section-heading {
-    text-transform: initial;
+		text-transform: initial;
 }
 
 #redefine, .clients{
-    background-color: #551A8B;
+		background-color: #551A8B;
 }
 
 #services, #contact {
-    background-color: #333333;
+		background-color: #333333;
 }
 
 #team {
-    background-color: #ffffff;
+		background-color: #ffffff;
 }
 
 #footer {
-    background-color: #111111;
+		background-color: #111111;
 }
 
 .sc-white-text {
-    color: white;
+		color: white;
 }
 sc-black-text {
-    color: black;
+		color: black;
 }
 
 .sc-subheading {
-    padding-left: 200px;
-    padding-right: 200px;
+		padding-left: 200px;
+		padding-right: 200px;
 }
 
 .sc-image {
-  width: 200px;
+	width: 200px;
 }
