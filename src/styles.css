@@ -96,10 +96,19 @@ header .header-text .btn.sc-btn-header {
     }
 }
 
+#contact form .form-group .form-control{
+    background: #333333;
+    border: transparent;
+}
+#contact .sc-btn-submit {
+    background-color: transparent;
+    color: #777777;
+    border-color: #777777;
+}
+
 section {
     padding: 40px 40px 20px;
 }
-
 .section-subtitle {
     padding: 0 30px;
     margin-bottom: 60px;
@@ -154,4 +163,8 @@ aside.clients img {
 
 #footer {
     background-color: #111111;
+}
+
+.sc-image {
+    width: 200px;
 }
