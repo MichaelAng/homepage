@@ -1,3 +1,16 @@
+.sc-white-text {
+    color: white;
+}
+sc-black-text {
+    color: black;
+}
+.sc-purple-text {
+    color: #551A8B;;
+}
+.sc-lite-purple-text {
+    color: purple;
+}
+
 .sc-navbar .navbar-brand,
 .sc-navbar .navbar-brand:hover,
 .sc-navbar .navbar-brand:focus,
@@ -105,23 +118,27 @@ section {
 }
 
 .team-member {
-  text-align: center;
-  margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .team-member img {
-  margin: 0 auto;
-  border: 7px solid white;
+    margin: 0 auto;
+    border: 7px solid white;
 }
 .team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
 }
 .team-member p {
-  margin-top: 0;
-  padding: 20px
+    margin-top: 0;
+    padding: 20px
 }
 
+aside.clients img {
+    height: 20px;
+    margin: 10px auto
+}
 
 #redefine, .clients{
     background-color: #551A8B;
@@ -137,28 +154,4 @@ section {
 
 #footer {
     background-color: #111111;
-}
-
-.sc-white-text {
-    color: white;
-}
-sc-black-text {
-    color: black;
-}
-.sc-purple-text {
-    color: #551A8B;;
-}
-
-.sc-lite-purple-text {
-    color: purple;
-}
-
-
-.sc-subheading {
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.sc-image {
-	width: 200px;
 }
