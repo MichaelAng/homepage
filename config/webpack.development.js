@@ -1,7 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     // Seperates the application into chunks
@@ -34,15 +34,15 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                loader: "style-loader!css-loader"
+                loader: 'style-loader!css-loader'
             },
             {
                 test: /\.png$/,
-                loader: "url-loader?limit=100000"
+                loader: 'url-loader?limit=100000'
             },
             {
                 test: /\.(jpg|jpeg)$/,
-                loader: "file-loader"
+                loader: 'file-loader'
             },
             {
                 test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
@@ -69,10 +69,16 @@ module.exports = {
           name: ['vendor', 'theme', 'app']
         }),
         // Pulls the css into seperate bundles
-        new ExtractTextPlugin("[name].css"),
+        new ExtractTextPlugin('[name].css'),
         // Injects the bundles into the index.html
         new HtmlWebpackPlugin({
           template: 'src/index.html'
+        }),
+        // Adds global jquery
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            'window.jQuery': 'jquery'
         })
     ]
 };
